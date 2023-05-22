@@ -1,0 +1,24 @@
+.formDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    border-style: none;
+    outline: none;
+    margin: 10px auto;
+}
+
+form input:enabled {
+    border-style: none;
+}
+
+form span {
+    font-weight: bold;
+}
+

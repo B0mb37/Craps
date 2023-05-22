@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Throwing 1 die</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+            <canvas id="myCanvas">
+                Your browser doesn't support the HTML5 element canvas.
+            </canvas>
+            <br/>
+            <div id="btn-div">
+                <button onClick="getDice();">Throw Dice</button>
+            </div>
+            <div class="formDiv">
+
+                <form name="f">
+                    <input id="stageEl" name="stage" value="First Throw" readonly/> <br/>
+                    <input id="pointsEl" name="pointsTotal" value="" readonly/><br/>
+                    <input id="outcomeEl" name="outcome" value="" readonly/><br/>
+                </form>
+            </div>
+
+
+        <script type="text/javascript" src="script.js">
+        </script>
+    </body>
+</html>
